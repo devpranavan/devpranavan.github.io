@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-dark font-dmsans antialiased;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-syne font-bold;
+  }
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Transition for entrance animations */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Disable all hover effects strictly as requested */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove default link underlines */
+a {
+  text-decoration: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #00D4B4;
+  border-radius: 10px;
+}
