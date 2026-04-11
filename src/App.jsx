@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { Github, Twitter, Linkedin, Mail, ArrowRight, Code, Server, Wrench, Database, Award, BookOpen, ExternalLink } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, ArrowRight, Code, Server, Wrench, Database, Award, BookOpen, ExternalLink , X } from 'lucide-react';
 import profileImg from './assets/profile.jpg';
 
 const App = () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
 /* --- HERO SECTION --- */
 const Hero = () => {
   const [roleIndex, setRoleIndex] = useState(0);
-  const roles = ["Developer", "Freelancer", "Undergraduate"];
+  const roles = ["Developer", "Freelancer"];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -81,9 +81,9 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-6 mt-8">
-          <SocialIcon icon={<Github size={22} />} href="https://github.com" />
-          <SocialIcon icon={<Twitter size={22} />} href="https://twitter.com" />
-          <SocialIcon icon={<Linkedin size={22} />} href="https://linkedin.com" />
+          <SocialIcon icon={<Github size={22} />} href="https://github.com/Pranaa2004" />
+          <SocialIcon icon={<Twitter size={22} />} href="https://x.com/PranavanT2004" />
+          <SocialIcon icon={<Linkedin size={22} />} href="https://www.linkedin.com/in/pranavandev/" />
           <SocialIcon icon={<Mail size={22} />} href="mailto:pranavan.dev@gmail.com" />
         </div>
       </motion.div>
@@ -300,10 +300,10 @@ const Footer = () => {
           I'm open to collaborations, freelance projects, and internships. Feel free to reach out.
         </p>
         <div className="flex gap-8 md:gap-12 flex-wrap">
-          <ContactLink label="Email" value="pranavan.dev@gmail.com" href="mailto:pranavan.dev@gmail.com" />
-          <ContactLink label="LinkedIn" value="Pranavan" href="https://linkedin.com" />
-          <ContactLink label="GitHub" value="@pranavan" href="https://github.com" />
-          <ContactLink label="Twitter" value="@pranavan" href="https://twitter.com" />
+          <ContactLink label="Email" value="pranavan.dev@gmail.com" className="bg-teal-400 text-black px-6 py-3 rounded-lg font-semibold" href="mailto:pranavan.dev@gmail.com" />
+          <ContactLink label="LinkedIn" value="Pranavan" href="https://www.linkedin.com/in/pranavandev/" />
+          <ContactLink label="GitHub" value="@pranavan" href="https://github.com/Pranaa2004" />
+          <ContactLink label="Twitter" value="@pranavan" href="https://x.com/PranavanT2004" />
         </div>
       </div>
       <div className="pt-24 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-bold text-dark/40 font-syne tracking-widest uppercase">
