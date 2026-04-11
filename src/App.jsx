@@ -81,7 +81,7 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-6 mt-8">
-          <SocialIcon icon={<Github size={22} />} href="https://github.com/Pranaa2004" />
+          <SocialIcon icon={<Github size={22} />} href="https://github.com/devpranavan" />
           <SocialIcon icon={<Twitter size={22} />} href="https://x.com/PranavanT2004" />
           <SocialIcon icon={<Linkedin size={22} />} href="https://www.linkedin.com/in/pranavandev/" />
           <SocialIcon icon={<Mail size={22} />} href="mailto:pranavan.dev@gmail.com" />
