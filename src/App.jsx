@@ -275,12 +275,12 @@ const Education = () => {
               <BookOpen className="text-white" size={32} />
             </div>
             <div>
-              <h3 className="text-2xl font-syne font-bold">University of Software Engineering</h3>
-              <p className="text-dark/60">B.Sc. in Software Engineering (Undergraduate)</p>
+              <h3 className="text-2xl font-syne font-bold">University of Kelaniya</h3>
+              <p className="text-dark/60">B.Sc.Hons in Software Engineering (Undergraduate)</p>
             </div>
           </div>
           <div className="text-dark/40 font-syne font-bold text-sm tracking-widest uppercase bg-white border border-gray-100 px-4 py-2">
-            2021 — 2025
+            2026 — 2030
           </div>
         </div>
       </motion.div>
