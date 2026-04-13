@@ -276,7 +276,7 @@ const Education = () => {
             </div>
             <div>
               <h3 className="text-2xl font-syne font-bold">University of Kelaniya</h3>
-              <p className="text-dark/60">B.Sc.Hons in Software Engineering (Undergraduate)</p>
+              <p className="text-dark/60">B.Sc.Honours in Software Engineering (Undergraduate)</p>
             </div>
           </div>
           <div className="text-dark/40 font-syne font-bold text-sm tracking-widest uppercase bg-white border border-gray-100 px-4 py-2">
