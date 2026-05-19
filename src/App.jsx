@@ -166,9 +166,9 @@ const Skills = () => {
       skills: ["Git & GitHub", "Docker", "Figma", "VS Code", "Postman"]
     },
     {
-      title: "ML / AI",
+      title: "Database",
       icon: <Database className="text-accent" />,
-      skills: ["Python", "TensorFlow", "OpenCV", "Robotics OS", "Data Analysis"]
+      skills: ["MySQL", "MariaDB", "MongoDB", "PostgreSQL", ""]
     }
   ];
 
