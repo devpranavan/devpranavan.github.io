@@ -221,7 +221,7 @@ const Skills = () => {
         "Laravel",
         "Node.js",
         "REST APIs",
-        "Authentication (JWT / Sanctum)",
+        "Authentication (Sanctum)",
       ],
     },
     {
