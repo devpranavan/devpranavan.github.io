@@ -82,7 +82,7 @@ const Hero = () => {
 
         <div className="flex gap-6 mt-8">
           <SocialIcon icon={<Github size={22} />} href="https://github.com/devpranavan" />
-          <SocialIcon icon={<Twitter size={22} />} href="https://x.com/PranavanT2004" />
+          <SocialIcon icon={<Twitter size={22} />} href="https://x.com/devpranavan" />
           <SocialIcon icon={<Linkedin size={22} />} href="https://www.linkedin.com/in/pranavandev/" />
           <SocialIcon icon={<Mail size={22} />} href="mailto:pranavan.dev@gmail.com" />
         </div>
@@ -166,9 +166,9 @@ const Skills = () => {
       skills: ["Git & GitHub", "Docker", "Figma", "VS Code", "Postman"]
     },
     {
-      title: "ML / AI",
+      title: "Database",
       icon: <Database className="text-accent" />,
-      skills: ["Python", "TensorFlow", "OpenCV", "Robotics OS", "Data Analysis"]
+      skills: ["MySQL", "MariaDB", "MongoDB", "PostgreSQL", ""]
     }
   ];
 
@@ -301,9 +301,9 @@ const Footer = () => {
         </p>
         <div className="flex gap-8 md:gap-12 flex-wrap">
           <ContactLink label="Email" value="pranavan.dev@gmail.com" className="bg-teal-400 text-black px-6 py-3 rounded-lg font-semibold" href="mailto:pranavan.dev@gmail.com" />
-          <ContactLink label="LinkedIn" value="Pranavan" href="https://www.linkedin.com/in/pranavandev/" />
-          <ContactLink label="GitHub" value="@pranavan" href="https://github.com/Pranaa2004" />
-          <ContactLink label="Twitter" value="@pranavan" href="https://x.com/PranavanT2004" />
+          <ContactLink label="LinkedIn" value="Pranavan Sanmugananthan" href="https://www.linkedin.com/in/pranavandev/" />
+          <ContactLink label="GitHub" value="@devpranavan" href="https://github.com/devpranavan" />
+          <ContactLink label="Twitter" value="@devpranavan" href="https://x.com/devpranavan" />
         </div>
       </div>
       <div className="pt-24 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-bold text-dark/40 font-syne tracking-widest uppercase">
