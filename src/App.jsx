@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { Github, Twitter, Linkedin, Mail, ArrowRight, Code, Server, Wrench, Database, Award, BookOpen, ExternalLink , X } from 'lucide-react';
 import profileImg from './assets/profile.jpg';
+import EduLogo from '/src/assets/university-of-kelaniya-logo.png';
 
 const App = () => {
   return (
@@ -271,8 +272,9 @@ const Education = () => {
       >
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="flex gap-6 items-center">
-            <div className="bg-dark p-4">
-              <BookOpen className="text-white" size={32} />
+            <div className="bg-accent/[0.02] p-4">
+              {/* <BookOpen className="text-white" size={32} /> */}
+              <span><img src={EduLogo} width={125} height={125}></img></span>
             </div>
             <div>
               <h3 className="text-2xl font-syne font-bold">University of Kelaniya</h3>
