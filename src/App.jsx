@@ -204,11 +204,11 @@ const Skills = () => {
   const categories = [
     {
       title: "Languages",
-      icon: <Server className="text-accent" />,
+      icon: <Code className="text-accent" />,
       skills: ["Java", "Python", "C#", "JavaScript(ES6)", "PHP", "SQL"],
     },
     {
-      title: "Libraries and Frameworks",
+      title: "Tech Stacks",
       icon: <Server className="text-accent" />,
       skills: [
         "Laravel",
