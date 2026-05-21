@@ -203,25 +203,20 @@ const About = () => {
 const Skills = () => {
   const categories = [
     {
-      title: "Frontend",
-      icon: <Code className="text-accent" />,
-      skills: [
-        "React.js",
-        "JavaScript (ES6+)",
-        "Tailwind CSS",
-        "HTML5/CSS3",
-        "Framer Motion",
-      ],
+      title: "Languages",
+      icon: <Server className="text-accent" />,
+      skills: ["Java", "Python", "C#", "JavaScript(ES6)", "PHP", "SQL"],
     },
     {
-      title: "Backend",
+      title: "Libraries and Frameworks",
       icon: <Server className="text-accent" />,
       skills: [
-        "PHP",
         "Laravel",
-        "Node.js",
-        "REST APIs",
-        "Authentication (Sanctum)",
+        "React",
+        "jQuery",
+        "Livewire",
+        "Tailwind CSS",
+        "Bootstrap",
       ],
     },
     {
