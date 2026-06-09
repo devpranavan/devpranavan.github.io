@@ -56,7 +56,7 @@ const Navbar = () => {
 /* --- HERO SECTION --- */
 const Hero = () => {
   const [roleIndex, setRoleIndex] = useState(0);
-  const roles = ["Developer", "Freelancer"];
+  const roles = ["Developer", "Freelancer","Undergraduate"];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -205,7 +205,7 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code className="text-accent" />,
-      skills: ["Java", "Python", "C#", "JavaScript(ES6)", "PHP", "SQL"],
+      skills: ["Java", "Python", "C#", "JavaScript(ES6+)", "PHP", "SQL"],
     },
     {
       title: "Tech Stacks",
@@ -215,8 +215,9 @@ const Skills = () => {
         "React",
         "jQuery",
         "Livewire",
+        "Filement",
         "Tailwind CSS",
-        "Bootstrap",
+        "Bootstrap"
       ],
     },
     {
