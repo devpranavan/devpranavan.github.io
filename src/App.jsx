@@ -370,7 +370,7 @@ const Education = () => {
               </p>
             </div>
           </div>
-          <div className="text-dark/40 font-syne font-bold text-sm tracking-widest uppercase bg-white border border-gray-100 px-4 py-2">
+          <div className="text-dark/40 font-syne font-bold text-sm tracking-widest uppercase border border-gray-100 px-4 py-2">
             2026 — 2030
           </div>
         </div>
